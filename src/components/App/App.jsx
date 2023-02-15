@@ -1,5 +1,5 @@
 import { ToastContainer, toast } from 'react-toastify';
-import { fetchApi } from 'components/api';
+import { fetchApi } from '../../api';
 import 'react-toastify/dist/ReactToastify.css';
 import { Searchbar } from '../Searchbar/Searchbar';
 import { Button } from '../Button/Button';
