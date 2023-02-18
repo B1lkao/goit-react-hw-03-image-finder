@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { createPortal } from 'react-dom';
 import { Component } from 'react';
 import { Overlay, ModalWindow } from './Modal.styled';
-const modalRoot = document.querySelector('#modal-root');
+const modalRoot = document.querySelector('#root');
 export class Modal extends Component {
   static propTypes = {
     closeModal: PropTypes.func.isRequired,
